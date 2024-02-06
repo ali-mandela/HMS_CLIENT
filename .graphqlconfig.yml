@@ -1,0 +1,12 @@
+projects:
+  amlif3ali:
+    schemaPath: 'C:/Users/91968/OneDrive/Desktop/Muhammad Ali/aws/graphql/schema.json'
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
